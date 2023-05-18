@@ -8,21 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		6FD80B032A14EE6600C50510 /* AspasTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80B022A14EE6600C50510 /* AspasTaskApp.swift */; };
-		6FD80B052A14EE6600C50510 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80B042A14EE6600C50510 /* ContentView.swift */; };
 		6FD80B072A14EE6700C50510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD80B062A14EE6700C50510 /* Assets.xcassets */; };
 		6FD80B0A2A14EE6700C50510 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD80B092A14EE6700C50510 /* Preview Assets.xcassets */; };
-		6FD80B0C2A14EE6700C50510 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80B0B2A14EE6700C50510 /* Persistence.swift */; };
-		6FD80B0F2A14EE6700C50510 /* AspasTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80B0D2A14EE6700C50510 /* AspasTask.xcdatamodeld */; };
+		6FD80B1F2A15348A00C50510 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80B1E2A15348A00C50510 /* NumberView.swift */; };
+		6FD80B212A15357D00C50510 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80B202A15357D00C50510 /* NameView.swift */; };
+		6FD80B232A15D74E00C50510 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80B222A15D74E00C50510 /* ImageView.swift */; };
+		6FD80B252A15E27800C50510 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80B242A15E27800C50510 /* ImagePicker.swift */; };
+		6FD80B272A15ECA500C50510 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80B262A15ECA500C50510 /* Location.swift */; };
+		6FD80B382A162A8900C50510 /* UserData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80B362A162A8900C50510 /* UserData.xcdatamodeld */; };
+		6FD80B3A2A162AD800C50510 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80B392A162AD800C50510 /* Persistence.swift */; };
+		6FD80B3C2A162B2900C50510 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80B3B2A162B2900C50510 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6FD80AFF2A14EE6600C50510 /* AspasTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AspasTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD80B022A14EE6600C50510 /* AspasTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspasTaskApp.swift; sourceTree = "<group>"; };
-		6FD80B042A14EE6600C50510 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6FD80B062A14EE6700C50510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FD80B092A14EE6700C50510 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6FD80B0B2A14EE6700C50510 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		6FD80B0E2A14EE6700C50510 /* AspasTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AspasTask.xcdatamodel; sourceTree = "<group>"; };
+		6FD80B1E2A15348A00C50510 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
+		6FD80B202A15357D00C50510 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
+		6FD80B222A15D74E00C50510 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		6FD80B242A15E27800C50510 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		6FD80B262A15ECA500C50510 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		6FD80B372A162A8900C50510 /* UserData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserData.xcdatamodel; sourceTree = "<group>"; };
+		6FD80B392A162AD800C50510 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6FD80B3B2A162B2900C50510 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				6FD80B022A14EE6600C50510 /* AspasTaskApp.swift */,
-				6FD80B042A14EE6600C50510 /* ContentView.swift */,
+				6FD80B3E2A1635FF00C50510 /* ViewModels */,
+				6FD80B3D2A1635F700C50510 /* Views */,
+				6FD80B3F2A16360700C50510 /* Helpers */,
+				6FD80B362A162A8900C50510 /* UserData.xcdatamodeld */,
 				6FD80B062A14EE6700C50510 /* Assets.xcassets */,
-				6FD80B0B2A14EE6700C50510 /* Persistence.swift */,
-				6FD80B0D2A14EE6700C50510 /* AspasTask.xcdatamodeld */,
 				6FD80B082A14EE6700C50510 /* Preview Content */,
 			);
 			path = AspasTask;
@@ -71,6 +82,34 @@
 				6FD80B092A14EE6700C50510 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FD80B3D2A1635F700C50510 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FD80B1E2A15348A00C50510 /* NumberView.swift */,
+				6FD80B202A15357D00C50510 /* NameView.swift */,
+				6FD80B222A15D74E00C50510 /* ImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6FD80B3E2A1635FF00C50510 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6FD80B3B2A162B2900C50510 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6FD80B3F2A16360700C50510 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6FD80B242A15E27800C50510 /* ImagePicker.swift */,
+				6FD80B392A162AD800C50510 /* Persistence.swift */,
+				6FD80B262A15ECA500C50510 /* Location.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +128,8 @@
 			dependencies = (
 			);
 			name = AspasTask;
+			packageProductDependencies = (
+			);
 			productName = AspasTask;
 			productReference = 6FD80AFF2A14EE6600C50510 /* AspasTask.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +158,8 @@
 				Base,
 			);
 			mainGroup = 6FD80AF62A14EE6600C50510;
+			packageReferences = (
+			);
 			productRefGroup = 6FD80B002A14EE6600C50510 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,10 +186,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FD80B0C2A14EE6700C50510 /* Persistence.swift in Sources */,
-				6FD80B0F2A14EE6700C50510 /* AspasTask.xcdatamodeld in Sources */,
-				6FD80B052A14EE6600C50510 /* ContentView.swift in Sources */,
+				6FD80B212A15357D00C50510 /* NameView.swift in Sources */,
+				6FD80B3A2A162AD800C50510 /* Persistence.swift in Sources */,
+				6FD80B272A15ECA500C50510 /* Location.swift in Sources */,
 				6FD80B032A14EE6600C50510 /* AspasTaskApp.swift in Sources */,
+				6FD80B252A15E27800C50510 /* ImagePicker.swift in Sources */,
+				6FD80B232A15D74E00C50510 /* ImageView.swift in Sources */,
+				6FD80B1F2A15348A00C50510 /* NumberView.swift in Sources */,
+				6FD80B3C2A162B2900C50510 /* UserViewModel.swift in Sources */,
+				6FD80B382A162A8900C50510 /* UserData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +326,9 @@
 				DEVELOPMENT_TEAM = J323D7MYQ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "You need to grant the app access to your camera in order to take photos";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs to access user location to find friends";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You need to grant the app access to your photo library to pick user Images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +358,9 @@
 				DEVELOPMENT_TEAM = J323D7MYQ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "You need to grant the app access to your camera in order to take photos";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs to access user location to find friends";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You need to grant the app access to your photo library to pick user Images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -349,13 +403,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6FD80B0D2A14EE6700C50510 /* AspasTask.xcdatamodeld */ = {
+		6FD80B362A162A8900C50510 /* UserData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6FD80B0E2A14EE6700C50510 /* AspasTask.xcdatamodel */,
+				6FD80B372A162A8900C50510 /* UserData.xcdatamodel */,
 			);
-			currentVersion = 6FD80B0E2A14EE6700C50510 /* AspasTask.xcdatamodel */;
-			path = AspasTask.xcdatamodeld;
+			currentVersion = 6FD80B372A162A8900C50510 /* UserData.xcdatamodel */;
+			path = UserData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

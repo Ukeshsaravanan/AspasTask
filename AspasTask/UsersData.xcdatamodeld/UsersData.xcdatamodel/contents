@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E261" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Image" representedClassName="Image" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES" codeGenerationType="class">
+        <attribute name="created" optional="YES" attributeType="String"/>
+        <attribute name="updated" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Phone" representedClassName="Phone" syncable="YES" codeGenerationType="class">
+        <attribute name="phone" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserName" representedClassName="UserName" syncable="YES" codeGenerationType="class">
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+    </entity>
+</model>
